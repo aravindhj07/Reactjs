@@ -1,0 +1,162 @@
+
+
+Install Git :
+
+1) sudo apt-get install git
+2) git config --global user.name "mathanaiht"
+3) ssh-keygen -t rsa -b 4096 -C "mathan@mynap.in"
+4) cd ~/.ssh
+5) gedit id_rsa.pub
+
+    --> Copy the content into git add new ssh
+    
+Install apache2 :
+-----------------
+
+sudo apt-get install apache2 apache2-doc apache2-utils
+sudo service apache2 restart
+
+Install java :
+--------------
+
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+
+Install SBT :
+-------------
+
+echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
+
+sudo apt-get update
+sudo apt-get install sbt
+
+
+Install Cassandra :
+-------------------
+
+step a) download archive here
+
+    http://archive.apache.org/dist/cassandra/3.11.2/apache-cassandra-3.11.2-bin.tar.gz
+
+Step b) Configuration : /home/mynap/Documents/install/apache-cassandra-3.11.2/conf/cassandra.yaml
+
+    i)  cluster_name: 'ZimodeCluster'
+    ii) - seeds: "192.168.1.55,192.168.1.22,192.168.1.23"
+    iii) listen_address: 192.168.1.55    
+    iv) rpc_address: 192.168.1.55
+    v) endpoint_snitch: GossipingPropertyFileSnitch
+    vi) auto_bootstrap: false
+
+Step c)
+    $ ./cassandra
+    $ ./nodetool status
+
+Step d)
+
+    If CQL Not Run then
+
+    sudo apt update
+    sudo apt upgrade                  <upgrade the old packages>
+    sudo apt install python-pip   <install pip for python if not installed>
+    pip install cassandra-driver   <install Cassandra driver>
+    pip install --upgrade pip       <upgrade pip. This step is not required>
+    export CQLSH_NO_BUNDLED=true
+
+Install curl:
+-----------------
+
+    sudo apt install curl
+
+Install Node Js and npm :
+-------------------------
+
+    sudo apt-get update
+    sudo apt-get install nodejs
+    sudo apt install nodejs-legacy
+    sudo apt-get install npm
+    node -v -> 4.2.6
+    npm -v  -> 3.5.2
+
+
+    OR
+
+    curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+    sudo apt-get install nodejs
+    sudo apt-get install build-essential
+    node -v -> v7.10.1
+    npm -v  -> 4.2.0
+
+
+Install react-native :
+
+    sudo npm install -g react-native-cli
+
+Install Docker : 
+
+$ sudo apt-get update
+
+$ sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    Software-properties-common
+
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+$ sudo apt-key fingerprint 0EBFCD88
+
+$ lsb_release -cs              → xenial
+
+$ sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+$ sudo apt-get update
+
+$ sudo apt-get install docker-ce
+
+$ sudo docker run hello-world
+// Setup run docker without sudo
+
+$ sudo groupadd docker
+
+
+$ sudo usermod -aG docker $USER
+
+https://docs.docker.com/docker-for-windows/#test-your-installation
+https://semaphoreci.com/community/tutorials/dockerizing-a-java-play-application
+https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user
+https://docs.docker.com/install/linux/docker-ce/ubuntu/#upgrade-docker-after-using-the-convenience-script
+
+$ docker image ls
+$ docker container ls --all
+
+$ sudo apt install docker-compose
+$ docker-compose ps
+
+//No Needed Test Only
+$ docker run --interactive --tty ubuntu bash
+$ docker run --detach --publish 80:80 --name webserver nginx
+$ docker container stop webserver
+
+docker-alpine:
+
+mynap@mynap-System-Product-Name:~$ docker run alpine env
+Unable to find image 'alpine:latest' locally
+latest: Pulling from library/alpine
+ff3a5c916c92: Pull complete
+Digest: sha256:7df6db5aa61ae9480f52f0b3a06a140ab98d427f86d8d5de0bedab9b8df6b1c0
+Status: Downloaded newer image for alpine:latest
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+HOSTNAME=4e42fdb580d0
+HOME=/root
+
+
+
+
+
+
