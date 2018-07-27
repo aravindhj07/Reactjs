@@ -89,7 +89,10 @@ Install Node Js and npm :
     node -v -> v7.10.1
     npm -v  -> 4.2.0
 
+Install React-js :
 
+    sudo npm install -g create-react-app
+    
 Install react-native :
 
     sudo npm install -g react-native-cli
