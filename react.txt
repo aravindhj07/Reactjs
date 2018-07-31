@@ -49,6 +49,9 @@ Step b) Configuration : /home/mynap/Documents/install/apache-cassandra-3.11.2/co
     iv) rpc_address: 192.168.1.55
     v) endpoint_snitch: GossipingPropertyFileSnitch
     vi) auto_bootstrap: false
+    
+    Db creation
+     1) ./cqlsh ip
 
 Step c)
     $ ./cassandra
