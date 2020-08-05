@@ -1,0 +1,473 @@
+.input-data-email{
+    border : none;
+    background: none;
+    padding-right: 20px;
+    padding-left: 10px !important;
+    width: 100%;
+    margin-top: -4px !important;
+}
+.input-data-password{
+    border : none;
+    background: none;
+    padding-right: 20px;
+    padding-left: 10px !important;
+    width: 90%;
+}
+.input-data-log-in {
+    width: 100% !important;
+    height: 49px !important;
+    box-shadow: 0 10px 10px rgba(183, 68, 68, 0.7) !important;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+    border : none !important;
+}
+.errorTextInputNew{
+    float: left !important;
+}
+.titleImage {
+    width: 321px !important;
+    height: 89px !important;
+}
+.email-address {
+    color: #fff !important;
+    font-family: Open-Sans-Light !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.2px !important;
+    padding-left: 10px !important;
+}
+.email-address::placeholder {
+    color: #fff !important;
+    font-family: Open-Sans-Light !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.2px !important;
+}
+.password {
+    color: #fff !important;
+    font-family: Open-Sans-Light !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.2px !important;
+    padding-left: 10px !important;
+}
+.password::placeholder {
+    color: #fff !important;
+    font-family: Open-Sans-Light !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.2px !important;
+}
+.log-in {
+    width: 100% !important;
+    height: 49px !important;
+    box-shadow: 0 10px 10px rgba(183, 68, 68, 0.7) !important;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+    border : none !important;
+    color: #f96462 !important;
+    /*font-family: Comfortaa-Regular !important;*/
+    font-family: Open-Sans-Regular !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.25px !important;
+    text-transform: uppercase !important;
+}
+.remember-me {
+    color: #fff  !important;
+    font-family: Open-Sans-Light  !important;
+    font-size: 14px  !important;
+    font-weight: 300  !important;
+    letter-spacing: 0.2px  !important;
+}
+.forgot-password {
+    color: #fff  !important;
+    font-family: Open-Sans-Light  !important;
+    font-size: 14px  !important;
+    font-weight: 300  !important;
+    letter-spacing: 0.2px  !important;
+}
+.sign-up {
+    color: #fff !important;
+    font-family: Open-Sans-Light  !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.2px !important;
+}
+.errorTextNew {
+    color: #fff !important;
+    font-family: Open-Sans-Light  !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.2px !important;
+}
+.errorTextInput {
+    color: #fff !important;
+    font-family: Open-Sans-Light  !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.2px !important;
+    float: left !important;
+}
+.or-log-in {
+    color: #fff !important;
+    font-family: Open-Sans-Light  !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.2px !important;
+}
+.signInOnineBackground{
+    margin: 8px  !important;
+    padding-top: 10px !important;
+    width: 55px !important;
+    height: 55px !important;
+}
+.send-verification {
+    width: 100% !important;
+    height: 49px !important;
+    box-shadow: 0 10px 10px rgba(183, 68, 68, 0.7) !important;
+    border-radius: 5px !important;
+    background-color: #fff !important;
+    border : none !important;
+    /*color: #f96462 !important;
+    !*font-family: Comfortaa-Regular !important;*!
+    font-family: Open-Sans-Regular !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.25px !important;*/
+}
+.sign-up-title {
+    color: #fff !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.9px !important;
+}
+.input-text-new {
+    color: #fff !important;
+    font-family: Open-Sans-Light !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.2px !important;
+}
+.input-text-new::placeholder {
+    color: #fff !important;
+    font-family: Open-Sans-Light !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.2px !important;
+}
+.create-trip {
+    color: #262626 !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.45px !important;
+}
+.next {
+    color: #ff6753;
+    font-family: Open-Sans-Regular !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+.create-trip-title {
+    color: #262626;
+    font-family: Open-Sans-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+.create-trip-title::placeholder {
+    color: #c1c1c1 !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.4px !important;
+}
+.create-trip-description {
+    /*color: #262626 !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.35px !important;*/
+}
+.create-trip-description::placeholder {
+    color: #c1c1c1 !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.35px !important;
+}
+.feed-back::placeholder {
+    color: #cecece !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.8px !important;
+}
+.create-trip-date {
+    color: #c1c1c1 !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.4px !important;
+}
+.create-trip-placeHolder {
+    color: #c1c1c1;
+    font-family: Open-Sans-Regular !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.4px !important;
+}
+.trip-box {
+    width: 100% !important;
+    border-bottom: 1px solid #dbdbdb !important;
+    background-color: #fff !important;
+    display: inline-flex !important;
+    align-items: center;
+    height: 61px;
+}
+
+ul {list-style-type: none;}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
+
+@media only screen and (max-width: 480px)  {
+    .Toastify__toast-container--top-center {
+        right: 0em !important;
+        top: 1em !important;
+        width: 50% !important;
+        left: inherit !important;
+    }
+}
+
+.Toastify__close-button {
+    display: none;
+}
+
+.Toastify__toast--success {
+    background: #0A97A6;
+    text-align: center;
+    color : #fff;
+    font-family: Open-Sans-Regular !important;
+    font-weight: bold;
+}
+
+.edit-profile-heading {
+    color: #262626 !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.45px !important;
+}
+
+.edit-profile-save {
+    color: #ff6c57 !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.edit-profile-photo {
+    color: #ff6c57 !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+}
+
+.heading-edit-profile-text {
+    color: #262626 !important;
+    font-family: Open-Sans-Bold !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+}
+.heading-edit-profile-input-border {
+    border-bottom: 1px solid #c7c7c7 !important;
+    padding: 0px !important;
+    margin : 0px !important;
+    padding-top: 15px !important;
+}
+.heading-admin-input-border {
+    border-bottom: 1px solid #c7c7c7 !important;
+    padding: 0px !important;
+    margin : 0px !important;
+    padding-top: 15px !important;
+}
+.heading-admin-input-border .css-1uccc91-singleValue {
+    color: #000 !important;
+}
+.adminScreenColor{
+    color: #000 !important;
+}
+.heading-edit-profile-input {
+    padding-left: 0px !important;
+    color: #262626 !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    box-shadow: inherit !important;
+}
+
+.heading-edit-profile-text-area {
+    color: #262626 !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    height: 97px !important;
+    border: 1px solid #c7c7c7 !important;
+}
+
+.feed-name {
+    color: #262626 !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.65px !important;
+}
+
+.feed-description {
+    color: #434343 !important;
+    font-family: Open-Sans-Regular !important;
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.1px !important;
+    line-height: 13px !important;
+}
+.editprofileBox
+{
+    padding: 5px;
+    height: 21px;
+    border: 1px solid #262626;
+    border-radius: 4px;
+}
+.uppercaseText
+{
+    text-transform: uppercase;
+}
+.profiletextList
+{
+    padding-bottom: 10px;
+}
+.textDecoration
+{
+    text-decoration: underline;
+}
+.tagsBoxStyle
+{
+    display: inline-block;
+    background-color: #9a9a9a;
+    margin:5px;
+    padding: 5px;
+    border-radius: 2px;
+}
+.fullviewModel
+{   top: 0px;
+    bottom: inherit;
+    left: 0px;
+    width: 100% !important;
+    height: 100vh !important;
+    max-width: 100% !important;
+    max-height: 100vh !important;
+}
+.bookmarkTabs
+{
+    text-decoration: none !important;
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: 16px;
+}
+
+.feed-description div span span span{
+    white-space: nowrap !important;
+}
+
+.breakWord{
+    display: block !important;
+}
+div.container4 {
+    height: 10em;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
